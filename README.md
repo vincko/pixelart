@@ -16,7 +16,7 @@ pip install opencv-python numpy scikit-learn termcolor
 ## pixelize
 ### Usage
 ```
-python ./pixelize.py ./path/to/input-image.jpg k
+python ./scripts/pixelize.py ./path/to/input-image.jpg k
 ```
 Make sure your `./path/to/input-image.jpg` is a square pixelart image. `k` is the number of different colors in your image.
 
@@ -29,5 +29,5 @@ Additionally, two output images are generated:
 1. `out.jpg`, a true 16x16 pixel image based on what was detected in your input image.
 ![Pixelart Image](./examples/out.png)
 
-2. `out-scaled.jpg`, a scaled up version of the detected image with UI enhancements to make it easier to draw or build the image. A black grid makes it easier to detect boundaries, a legend shows the same output as what is printed to the console, and the length of a sequence is indicated by a number in its first field.
+2. `out-scaled.jpg`, a scaled up version of the detected image with UI enhancements to make it easier to draw or build the image. A black grid makes it easier to detect pixel boundaries, a legend shows the pixel color count output (same as in console), and the length of a same-color sequence is indicated by a number in its first field (by row).
 ![Output Image](./examples/out-scaled.png)
