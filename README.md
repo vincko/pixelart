@@ -30,4 +30,5 @@ Additionally, two output images are generated:
 ![Pixelart Image](./examples/out.png)
 
 2. `out-scaled.png`, a scaled up version of the detected image with UI enhancements to make it easier to draw or build the image. A black grid makes it easier to detect pixel boundaries, a legend shows the pixel color count output (same as in console), and the length of a same-color sequence is indicated by a number in its first field (by row).
+
 ![Output Image](./examples/out-scaled.png)
