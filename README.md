@@ -26,8 +26,8 @@ Make sure your `./path/to/input-image.jpg` is a square pixelart image. `k` is th
 The command identifies the pixels in your input image and outputs the number of pixels by color into the console.
 
 Additionally, two output images are generated:
-1. `out.jpg`, a true 16x16 pixel image based on what was detected in your input image.
+1. `out.png`, a true 16x16 pixel image based on what was detected in your input image.
 ![Pixelart Image](./examples/out.png)
 
-2. `out-scaled.jpg`, a scaled up version of the detected image with UI enhancements to make it easier to draw or build the image. A black grid makes it easier to detect pixel boundaries, a legend shows the pixel color count output (same as in console), and the length of a same-color sequence is indicated by a number in its first field (by row).
+2. `out-scaled.png`, a scaled up version of the detected image with UI enhancements to make it easier to draw or build the image. A black grid makes it easier to detect pixel boundaries, a legend shows the pixel color count output (same as in console), and the length of a same-color sequence is indicated by a number in its first field (by row).
 ![Output Image](./examples/out-scaled.png)
